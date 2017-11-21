@@ -1,0 +1,156 @@
+@font-face{
+	font-family: montserratRegular;
+	src: url(../fonts/Montserrat-Regular.otf);
+}
+
+body{
+	font-family: montserratRegular;
+	font-weight: bold;
+}
+hr{
+	color: #e3e8f0;
+	width: 100%;
+}
+main{
+	background-color: #e4e5e7;
+}
+
+/* Main Menu */
+.menu-icon{
+	padding: 0;
+}
+.menu-icon .logo{
+	display: inline;
+	margin-right: 50px;
+}
+.main-menu{
+	margin-top: 32px;
+}
+.main-menu-navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.main-menu-navigation ul li{
+	display: inline;
+	margin: 0 30px 0 0;
+} 
+#bootstrap-overrides1 ul li a{
+	color: #343e5c;
+	text-decoration: none;
+}
+#bootstrap-overrides1 ul li a:hover{
+	text-decoration: underline;
+}
+.purchased-items{
+	background: #e3e8f0;
+	border-radius: 10px;
+	width: 15px;
+	font-size: 11px;
+	text-align: center;
+	height: 20px;
+}
+.menu-cart-signin{
+	display: inline-flex;
+}
+.menu-cart-signin span{
+	padding: 0 10px 0 10px;	
+}
+.menu-cart-signin img{
+	margin-left: 15px;
+}
+.menu-cart-signin button{
+	background: white;
+	border: 3px solid #e3e8f0;
+	border-radius: 17px;
+	font-size: 11px;
+	color: #343e5c;
+	margin-left: 80px;
+}
+
+/* Secondary Menu */
+.secondary-menu-navigation{
+	padding: 0;
+}
+.secondary-menu-navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}	
+.secondary-menu-navigation ul li{
+	display: inline;
+	margin: 0 0 0 23px;
+}
+.secondary-menu-navigation ul li:first-child{
+	margin-left: 0;
+}
+.secondary-menu-navigation ul li:last-child{
+	margin-left: 469px;
+}
+#bootstrap-overrides2 ul li a{
+	color: #b9bed1;
+	text-decoration: none;
+}
+#bootstrap-overrides2 ul  li.current-menu-item a{
+	color: #343e5c;
+}
+.search-menu{
+	display: -webkit-inline-box;
+}
+.search-form{
+	margin: 0 0 0 15px;
+	font-size: 12px;
+	color: #b9bed1;
+	border: 0px;
+}
+.search-form::placeholder{
+	color: #b9bed1;
+}
+.sort-by{
+	border: 1px;
+	border-radius: 4px;
+	background: #ffffff;
+	height: 57px;
+	margin-top: 50px;
+}
+.sort-by form{
+	display: inline-flex;
+	margin-top: 20px;
+}
+.sort-by input{
+	width: 65px;
+	border: 1px solid #e4e5e7;
+	border-radius: 10px;
+	background: #f0f2f7;
+}
+.sort-by select{
+	border: 1px;
+	color: #343e5c;
+}
+.sort-by p{
+	font-size: 11px;
+	color: #a1a7bd;
+}
+.rb-shipping input{
+	vertical-align: middle;
+	margin: 0 0 0 40px;
+	width: 30px;
+}
+.menu-137{
+	margin: 0 40 0 80;
+}
+.menu-101{
+	margin: 0 10px 0 75px;
+}
+.minimum-price{
+	margin-left: 10px;
+}
+.keywords{
+	margin: 0 30px 30px 0;
+	width: 160px !important;
+}
+.wpcf7-list-item-label{
+	margin-right: 65px;
+}
