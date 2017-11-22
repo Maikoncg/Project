@@ -108,6 +108,8 @@ main{
 .search-form::placeholder{
 	color: #b9bed1;
 }
+
+/* Sort by bar */
 .sort-by{
 	border: 1px;
 	border-radius: 4px;
@@ -138,6 +140,9 @@ main{
 	margin: 0 0 0 40px;
 	width: 30px;
 }
+.rb-shipping .wpcf7-list-item-label{
+	margin-right: 93px;
+}
 .menu-137{
 	margin: 0 40 0 80;
 }
@@ -148,9 +153,48 @@ main{
 	margin-left: 10px;
 }
 .keywords{
-	margin: 0 30px 30px 0;
+	margin: 0 30px 0 10px;
 	width: 160px !important;
 }
-.wpcf7-list-item-label{
-	margin-right: 65px;
+
+/* Sidebars */
+.sidebars{
+	padding: 0;
+}
+.feature-drop-down{
+	width: 100%;
+	border: 1px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #343e5c;
+}
+.sidebar-product-feature hr{
+	margin: 15px 0 15px 0;
+	width: 100%;
+}
+.sidebar-product-available hr{
+	margin: 15px 0 15px 0;
+	width: 100%;
+}
+.sidebar-product-condition hr{
+	margin: 15px 0 15px 0;
+	width: 100%;
+}
+.sidebar-product-feature hr{
+	margin: 15px 0 15px 0;
+	width: 100%;
+}
+.cb-brands, .cb-condition, .rb-availability, .rb-delivery{
+	font-size: 13px;
+	color: #343e5c;
+	padding: 0px auto;
+}
+.sidebar-product-available, .sidebar-product-condition, .sidebar-product-delivery label{
+	font-size: 11px;
+}
+.sidebar-product-feature, .sidebar-product-available, .sidebar-product-condition, .sidebar-product-delivery{
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 4px;
+	padding: 0 10px 0 15px;
 }

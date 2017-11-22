@@ -1,0 +1,1 @@
+[Wed Nov 22 15:10:51.760362 2017] [:error] [pid 2722] [client 10.0.2.2:51501] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /vagrant/wordpress/Portland/wp-content/themes/portland/functions.php on line 61, referer: http://localhost/Portland/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2FPortland%2F
