@@ -14,7 +14,7 @@
 						<img><?php echo '<img src="' . get_bloginfo('template_directory') . '/img/menu-icon.png" />'; ?>
 						<img class="logo"><?php the_custom_logo(); ?>
 					</div>
-					<div class="main-menu-navigation col-md-6" id="bootstrap-overrides1">
+					<div class="main-menu-navigation col-md-6" id="bootstrap-overrides-mainmenu">
 						<?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
 					</div>
 					<div class="menu-cart-signin col-md-3">
@@ -30,7 +30,7 @@
 		<div class="secondary-menu">
 			<div class="container">
 				<div class="row">
-					<div class="secondary-menu-navigation col-md-10" id="bootstrap-overrides2">
+					<div class="secondary-menu-navigation col-md-10" id="bootstrap-overrides-secmenu">
 						<?php wp_nav_menu(array('theme_location' => 'secondary_menu')); ?>
 					</div>
 					<div class="search-menu col-md-2 text-right">
